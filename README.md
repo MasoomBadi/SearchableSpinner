@@ -1,3 +1,6 @@
+# Bug Fix
+    * Crash on double clicking spinner.
+    
 # SearchableSpinner 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SearchableSpinner-green.svg?style=true)](https://android-arsenal.com/details/1/3272)
 
