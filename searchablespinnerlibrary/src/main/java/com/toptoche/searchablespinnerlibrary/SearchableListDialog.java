@@ -151,6 +151,7 @@ public class SearchableListDialog extends DialogFragment implements
                 .INPUT_METHOD_SERVICE);
         mgr.hideSoftInputFromWindow(_searchView.getWindowToken(), 0);
 
+
         ArrayList items = (ArrayList) getArguments().getSerializable(ITEMS);
 
         _listViewItems = (ListView) rootView.findViewById(R.id.listItems);
@@ -197,7 +198,7 @@ public class SearchableListDialog extends DialogFragment implements
 //                _listViewItems.clearTextFilter();
             listAdapter.getFilter().filter(null);
         } else {
-            listAdapter.getFilter().filter(null);
+            listAdapter.getFilter().filter(s);
         }
         if (null != _onSearchTextChanged) {
             _onSearchTextChanged.onSearchTextChanged(s);
