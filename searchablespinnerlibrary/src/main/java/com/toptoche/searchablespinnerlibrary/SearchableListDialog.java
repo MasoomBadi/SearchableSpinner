@@ -16,7 +16,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SearchView;
-import main.java.com.toptoche.searchablespinnerlibrary.SearchableAdapter;
 
 import java.io.Serializable;
 import java.util.ArrayList;
